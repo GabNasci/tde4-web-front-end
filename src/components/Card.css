@@ -1,0 +1,16 @@
+.card {
+    width: 300px;
+    background-color: rgb(128, 128, 128);
+    border-radius: 16px;
+    padding: 8px;
+    & img {
+        width: 100%;
+        border-radius: 8px;
+    }
+}
+
+.clicado {
+    background-color: brown;
+    position: absolute;
+    top: 200px;
+}
